@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+   <link href="登录.css" type="text/css" rel="stylesheet"/> 
+ </head>
+ <body>
+  <div id="head">
+		<div class="headone">东南西方风</div> 
+		<div class="headtwo"></div>
+		<div class="headthree">QQ:909330188</div>
+		<div class="headfour"></div>
+		<div class="headfive">微信</div>
+		<div class="headsex">欢迎莅临古风原创网基地！</div>
+		<div class="headseven"> 请登录|</div>
+		<div class="headeight"><a href="注册.html">立即注册</a></div>
+  </div>
+  <div id="logo">
+		<div class="logoone"></div>
+		<input  class="logox" type="text" value="请输入搜索内容"/>
+		<ul class="logotwo">
+			<li><a  id="tz" href="#">帖子</a>
+			<ul id="logotwocd">
+				<li><a href="#">文章</a></li>
+				<li><a href="#">帖子</a></li>
+				<li><a href="#">用户</a></li>
+			</ul>
+			</li>
+		</ul>
+		<input class="logoy" type="button" value=""/>
+		<div class="logothree"></div>
+  </div>
+  <div id="cd">
+			<ul class="cdone">
+				<li class="one"><a href="首页.html">首页</a></li>
+				<li ><ol><a href="古风简介.html">古风简介</a></ol>
+					<ul class="cdtwo">
+						<li><a href="古风简介.html">古风简介</a></li>
+						<li><a href="#">古风理念</a></li>
+						<li><a href="#">同好邀约</a></li>
+						<li><a href="#">古风作品</a></li>
+					</ul>
+				</li>
+				<li><ol><a href="古风朝报.html">古风朝报</a></ol>
+					<ul class="cdthree">
+						<li><a href="#">基地新闻</a></li>
+						<li><a href="#">媒体资讯</a></li>
+						<li><a href="#">同好动态</a></li>
+						<li><a href="#">个人专访</a></li>
+					</ul>
+				</li>
+				<li><a href="#">联盟网刊</a></li>
+				<li><a href="#">论坛中心</a></li>
+				<li><ol><a href="#">古风活动</a></ol>
+					<ul class="cdfour">
+						<li><a href="#">联盟会</a></li>
+						<li><a href="#">英雄帖</a></li>
+						<li><a href="#">影音厂</a></li>
+						<li><a href="#">推荐会</a></li>
+					</ul>
+				</li>
+				<li><a href="#">古风学院</a></li>
+				<li><ol><a href="#">基地站务</a><ol>
+					<ul class="cdfive">
+						<li><a href="#">网站公告</a></li>
+						<li><a href="#">站务合作</a></li>
+						<li><a href="#">管理团队</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+				
+				</li>
+			</ul>
+  </div>
+   <div id="mainone">
+
+		<div class="lyc">悠悠华夏</div>
+		<div class="hr1"><hr color="#5b3c1c"/></div>
+		<div class="yyhx">宋韵唐风、今韵古风<p>PROFESSIONAL IDENTIFICATION,TRANSACTION INTEGRITY,NO CHRGE NO DEAL</p></div>
+		<div class="hr2"><hr color="#5b3c1c"/></div>
+ </div>
+  <div id="maintwo">
+	<div class="fd">
+		<div>登录</div>
+		<form action="首页.html" method=post name="用户界面" >
+			 <table cellspacing="0">
+				<tr required="required">
+					<td>用户名:</td>
+					<td><input type="test" name="yh" id="name" placeholder="请输入昵称"/></td>
+				</tr>
+				<tr>
+					<td>密码:</td>
+					<td><input type="password" name="mm" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="button" class="dl" value="登录"/>
+					</td>
+				</tr>
+		 </table>
+	 </form>
+	</div>
+ </div>
+<div id="mainseven">
+		<div class="one"></div>
+		<div class="two">扫描关注官方微信公众平台</div>
+		<div class="three">地址：中国 北京市丰台区正阳北里</div>
+		<div class="four">电话：15712887307 邮箱：909330188@qq.com</div>
+		<div class="five">微信公众号：gufengwenhua</div>
+		<div class="sex">（工业和信息化部网站备案系统：京icp备15065839号-1）</div>
+		<div class="seven">Copyright c 2015 Comsenz Inc. Powered by Discuz! X3.2</div>
+	</div>
+	<div id="maineight">
+		<ul>
+			<li>手机版</li>
+			<li>公告</li>
+			<li>古风文化</li>
+			<li>古风原创</li>
+		</ul>
+	</div>
+ </body>
+</html>

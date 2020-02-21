@@ -1,0 +1,87 @@
+body,div,input,ul,a,ol,li,p,br,hr,table,input,tr,td{margin: 0px;padding: 0px;list-style:none}
+#head{width: 1465px; height:48px; background:#301a0b; color:#9c753e;}
+.headone{width:90px;height:20px;margin-left:200px;font-size:15px;float:left;margin-top:15px}
+.headtwo{width:25px;height:20px;background:url("dh.jpg") no-repeat 0 0;float:left;margin-top:15px}
+.headthree{width:110px;height:20px;font-size:15px;float:left;margin-top:15px;margin-left:5px}
+.headfour{width:25px;height:20px;background:url("wx.png") no-repeat 0 0;float:left;margin-left:10px;margin-top:15px}
+.headfive{width:35px;height:15px;font-size:15px;float:left;margin-top:15px;margin-left:5px}
+.headsex{width:190px;height:20px;margin-left:500px;font-size:15px;float:left;margin-top:15px}
+.headseven{width:70px;height:20px;margin-left:5px;font-size:15px;float:left;margin-top:15px}
+.headseven a{font-size:15px;text-decoration:none;color:#9c753e;}
+.headseven a:hover{text-decoration:none;color:#ffb192}
+.headeight{width:70px;height:20px;margin-left:5px;float:left;margin-top:15px}
+.headeight a{font-size:15px;text-decoration:none;color:#9c753e;}
+.headeight a:hover{text-decoration:none;color:#ffb192}
+#logo{width: 1465px; height:140px;background:#140800; }
+.logoone{width:700px;height:120px;background:url("logo.png") no-repeat 0 0;float:left;margin-left:200px;margin-top:20px}
+.logox{width:260px;height:30px;background:#411f00;margin-top:20px;color:#a9a9a9;float:left;font-size:20px;border:1px solid #411f00;}
+#tz{width:60px;height:33px;line-height:35px;font-size:15px;color:#a9a9a9;background:#411f00;text-align:center;text-decoration:none;}
+.logoy{width:85px;height:32px;background:url("ssan.png") no-repeat 0 0;margin-top:19px;float:left;border:1px solid #411f00}
+.logotwo{width:60px;height:120px;background:#140800;float:left;margin-top:19px;}
+#logotwocd{width:60px;height:100px;display:none;}
+#logotwocd li{width:60px;height:32px;margin:0 2px;margin-bottom:2px; border-bottom:1px solid #ece6e1;text-align:center;background:#ffffff;}
+#logotwocd a{text-decoration:none;color:black}
+a{display:block;}
+.logotwo li:hover #logotwocd{display:block;}
+#logotwocd li:hover{background:#140800;}
+#logotwocd a:hover{text-decoration:none;color:#ffffff}
+.logothree{width:75px;height:40px;background:url("gf.png") no-repeat 0 0;margin-top:25px;float:left;margin-left:10px;}
+#cd{width: 1465px; height:55px;background-image:url("cd1.png");}
+.cdone{width: 1100px; height:50px;margin-left:235px;}
+.cdone li{width:100px;height:50px;float:left;margin:15px 10px;font-size:20px}
+.cdone a{color:#fac75d;text-decoration:none;text-align:center;}
+.cdtwo{width:100px;height:140px;margin-top:5px;display:none;background:#ffffff}
+.cdtwo li{width:95px;height:26px;margin:4px 2px;}
+a,ol{display:block;}
+.cdone ol{width:100px;height:35px;}
+.cdone li:hover .cdtwo{display:block;}
+.cdtwo li:hover{background-image:url("cd1.png")}
+
+.cdthree{width:100px;height:140px;margin-top:5px;display:none;background:#ffffff}
+.cdthree li{width:95px;height:26px;margin:4px 2px;}
+a,ol{display:block;}
+.cdone ol{width:100px;height:35px;}
+.cdone li:hover .cdthree{display:block;}
+.cdthree li:hover{background-image:url("cd1.png")}
+
+.cdfour{width:100px;height:140px;margin-top:5px;display:none;background:#ffffff}
+.cdfour li{width:95px;height:26px;margin:4px 2px;}
+a,ol{display:block;}
+.cdone ol{width:100px;height:35px;}
+.cdone li:hover .cdfour{display:block;}
+.cdfour li:hover{background-image:url("cd1.png")}
+
+.cdfive{width:100px;height:140px;margin-top:15px;display:none;background:#ffffff}
+.cdfive li{width:95px;height:26px;margin:4px 2px;}
+a,ol{display:block;}
+.cdone ol{width:100px;height:35px;}
+.cdone li:hover .cdfive{display:block;}
+.cdfive li:hover{background-image:url("cd1.png")}
+
+#mainone{width:1465px;height:400px;background:url("bj1.jpg") no-repeat 0 0;border:1px solid #2f1a0a}
+#mainone .lyc{width:300px;height:50px;font-size:50px;margin-left:590px;color:#dea635;margin-top:50px}
+#mainone .hr1{width:280px;height:60px;margin-left:200px;margin-top:60px;float:left;}
+#mainone .hr2{width:280px;height:60px;float:left;margin-left:20px;margin-top:60px;}
+#mainone .yyhx{width:410px;height:90px;font-size:20px;margin-top:40px;float:left;margin-left:20px;color:#9c752f;text-align:center}
+#mainone .yyhx p{font-size:13px;text-align:center}
+
+#maintwo{width:1465px;height:500px;background:url("bj2.jpg") no-repeat 0 0;position:relative;}
+#maintwo .fd{width:1050px;height:500px;background:rgba(255,255,255,0.2);position:absolute;left:200px;bottom:40px}
+#maintwo .fd div{width:150px;height:50px;margin-top:20px;margin-left:50px;font-size:25px;text-align:center;line-height:50px;color:#fdd5b6;}
+#maintwo .fd div:hover{border-bottom:2px solid #3a2512;}
+#maintwo table{width:600px;height:300px;margin:20px auto;font-size:20px;color:#fdd5b6;}
+#maintwo input{width:300px;height:30px;}
+#maintwo .dl{width:60px;height:30px;}
+
+#mainseven{width:1465px;height:400px;background:#38220d;border:1px solid #38220d}
+#mainseven .one{width:125px;height:125px;background:url("t13.jpg") no-repeat 0 0;margin-left:600px;margin-top:60px}
+#mainseven .two{font-size:17px;margin-left:550px;margin-top:10px;color:#9c753e;}
+#mainseven .three{font-size:14px;margin-left:550px;margin-top:30px;color:#9c753e;}
+#mainseven .four{font-size:14px;margin-left:515px;margin-top:5px;color:#9c753e;}
+#mainseven .five{font-size:14px;margin-left:575px;margin-top:5px;color:#9c753e;}
+#mainseven .sex{font-size:14px;margin-left:480px;margin-top:5px;color:#9c753e;}
+#mainseven .seven{font-size:14px;margin-left:490px;margin-top:5px;color:#9c753e;}
+
+#maineight{width:1465px;height:60px;background:#2f1a0a;}
+#maineight ul{width:1000px;height:60px;margin-left:300px}
+#maineight ul li{font-size:15px;color:#9c753e;float:left;text-align:center;line-height:60px;margin-left:100px}

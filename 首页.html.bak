@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+<link href="首页样式.css" type="text/css" rel="stylesheet"/> 
+<script type="text/javascript">
+	var id;
+	var count=0;
+	function fun()
+	{
+		id=setInterval(show,2000);
+	}
+	function show()
+	{
+		count++;
+		var imgs=document.getElementsByTagName('img');
+		for(var i=0;i<imgs.length;i++)
+			imgs[i].className="no";
+		var indenx=count%imgs.length;
+		imgs[indenx].className="yes";
+	}
+	function stop()
+	{
+		clearInterval(id);
+	}
+</script>
+ </head>
+ <body onload="fun();">
+  <div id="head">
+		<div class="headone">东南西方风</div> 
+		<div class="headtwo"></div>
+		<div class="headthree">QQ:909330188</div>
+		<div class="headfour"></div>
+		<div class="headfive">微信</div>
+		<div class="headsex">欢迎莅临古风原创网基地！</div>
+		<div class="headseven"> 请登录|</div>
+		<div class="headeight"><a href="注册.html">立即注册</a></div>
+  </div>
+  <div id="logo">
+		<div class="logoone"></div>
+		<input  class="logox" type="text" value="请输入搜索内容"/>
+		<ul class="logotwo">
+			<li><a  id="tz" href="#">帖子</a>
+			<ul id="logotwocd">
+				<li><a href="#">文章</a></li>
+				<li><a href="#">帖子</a></li>
+				<li><a href="#">用户</a></li>
+			</ul>
+			</li>
+		</ul>
+		<input class="logoy" type="button" value=""/>
+		<div class="logothree"></div>
+  </div>
+  <div id="cd">
+			<ul class="cdone">
+				<li class="two"><a href="#">首页</a></li>
+				<li class="two"><ol><a href="古风简介.html">古风简介</a></ol>
+					<ul class="cdtwo">
+						<li><a href="#">古风简介</a></li>
+						<li><a href="#">古风理念</a></li>
+						<li><a href="#">同好邀约</a></li>
+						<li><a href="#">古风作品</a></li>
+					</ul>
+				</li>
+				<li class="two"><ol><a href="古风朝报.html">古风朝报</a></ol>
+					<ul class="cdthree">
+						<li><a href="#">基地新闻</a></li>
+						<li><a href="#">媒体资讯</a></li>
+						<li><a href="#">同好动态</a></li>
+						<li><a href="#">个人专访</a></li>
+					</ul>
+				</li>
+				<li class="two"><ol><a href="#">古风活动</a></ol>
+					<ul class="cdfour">
+						<li><a href="#">联盟会</a></li>
+						<li><a href="#">英雄帖</a></li>
+						<li><a href="#">影音厂</a></li>
+						<li><a href="#">推荐会</a></li>
+					</ul>
+				</li>
+				<li class="two"><a href="#">论坛中心</a></li>
+				<li class="two"><a href="#">联盟网刊</a></li>
+				<li class="two"><a href="#">古风学院</a></li>
+				<li class="two"><ol><a href="#">基地站务</a><ol>
+					<ul class="cdfive">
+						<li><a href="#">网站公告</a></li>
+						<li><a href="#">站务合作</a></li>
+						<li><a href="#">管理团队</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+				
+				</li>
+			</ul>
+  </div>
+	<div id="lunbo" onmouseover="stop();" onmouseout="fun();">
+		<img src="banner.jpg" />
+		<img src="banner1.jpg" class="no"/>
+		<img src="banner2.jpg" class="no"/>
+		<img src="banner4.jpg" class="no"/>
+	</div>
+	<div class="mainone">
+		<ul>
+			<li class="bg1"><p class="p1">学习</p><p class="p2">悠悠华夏千载古</p>
+			<p class="p2">古风原创作品基</p>
+			</li>
+			<li class="bg2"><p class="p1">探索</p><p class="p2">寻找失落中的你</p>
+			<p class="p2">回看江山如此多</p>
+			</li>
+			<li class="bg3"><p class="p1">交流</p><p class="p2">东西南北中</p>
+			<p class="p2">笔墨袖底风</p>
+			</li>
+			<li class="bg4"><p class="p1">传承</p><p class="p2">问英雄</p>
+			<p class="p2">谁主风流</p>
+			</li>
+		</ul>
+	</div>
+	<div class="maintwo">
+			<div class="maintwo1">古风简介/</div>
+			<div class="maintwo2"><p>ABOUT ME</p><p>浪游者的歌</p></div>
+			<div class="maintwo3">
+				<p>作为中国传统文化的爱好者和探索跋涉者，2012年由古风先生联合众多古诗词</p>
+				<p>爱好者在新浪共同发起创建了古风博客联盟。2013年又共同携手《博客中国</p>
+				<p>风》网刊的建立。并陆续推出了《宋韵唐风》《今韵古风》《美文采风》《画</p>
+				<p>影书风》《清音流风》《光影炫风》《古风微影剧》等版块，囊括了诗、词、</p>
+				<p>歌、赋、琴、棋、书、画、影视、音乐等传统文化领域和时尚多样艺术范畴。2</p>
+				<p>016年10月10构建了古风文化网，古风论坛新媒体微信平台。2017整合改版，</p>
+				<p>共同构建新时期古风网络文化平台。</p>
+			</div>
+				<div class="maintwo4"><div class="d1">站务<div class="d4">合作</div></div>
+				<div class="d2">/</div><div class="d3">909330188@qq.com</div>
+			</div>
+			<div class="maintwo5">古风活动/</div>
+			<div class="maintwo6"><p>ACTIVITY</p><p>你我的江山</p></div>
+			<div class="maintwo7">
+				<ul>
+					<li><a href="#">英雄帖-联盟会</a></li>
+					<li><a href="#">|仙侠风-江山行</a></li>
+					<li><a href="#">|书画展-推荐会</a></li>
+					<li><a href="#">|古风-周边</a></li>
+				</ul>
+			</div>
+			<div class="maintwo8">
+				<div class="maintwo8kk">
+				<a href="#">《芈月传》阿鲁阿卓《西风》领衔影视古风双</a>
+				</div>
+			</div>
+			<div class="maintwo9">
+				<div class="maintwo9kk"><a href="#">五律-醉卧古风轩</a></div>
+				<div class="maintwo11">
+					<div class="maintwo11kk">
+						<a href="#">古风长干行之倾城霓裳</a>
+					</div>
+				</div>
+			</div>
+			<div class="maintwo10">
+				<div class="maintwo10kk"><a href="#">高翊菲曾春年对唱《妃子泪》 打造经典古</a></div>
+				<div class="maintwo12">
+					<div class="maintwo12kk">
+						<a href="#">水调歌头-古风</a>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div id="mainthree">
+		<div class="hr1"><hr color="#5b3c1c"/></div>
+		<div class="yyhx">悠悠华夏千载古风</div>
+		<div class="hr2"><hr color="#5b3c1c"/></div>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<div class="jwtb">剑舞太白雪 醉卧灞柳兰</div>
+		<div class="bm">笔墨可以化剑 眉语也能成刀 谈笑间问指苍天 回眸间 我 就在你的面前</div>
+		<div class="yw">The sword dance is too white,Zuiwo BA chamaenerionangustifolium, The ink can be Meiyu can also 
+		become the sword,knife, laughing to ask God,in between,I in front of</div>
+	</div>
+
+	<div id="mainfour">
+		<div class="gfhd">古风同好/</div>
+		<div class="case"><p>CASE</p><p>原创论坛 佳品推荐</p></div>
+		<ul>
+			<li class="t8"><div><a href="#">刘珂矣禅意新作《墨痕》袒露书画</a></div></li>
+			<li class="t9"><div><a href="#">江南才女-诗人赵惠萍</a></div></li>
+			<li class="t10"><div><a href="#">《凤凰台上忆吹箫》·致八一</a></div></li>
+			<li class="t11"><div><a href="#">写给七夕情人节[同题组诗 原创]</a></div></li>
+		</ul>
+	</div>
+
+	<div id="mainfive">
+		<div class="lyc">敛一池清水 荡我今世风华</div>
+		<div class="hr1"><hr color="#5b3c1c"/></div>
+		<div class="yyhx">醉卧庭轩下一生有独钟<p>TASTING,YOU MEET MY NEEDS ,I AM YOUR SUCCESS,GLORY</p></div>
+		<div class="hr2"><hr color="#5b3c1c"/></div>
+		<div class="ljyy"><a href="#">立即预约</a></div>
+	</div>
+	<div id="mainsex">
+		<ul class="box1">
+			<li class="one"></li>
+			<li class="two">
+				<div class="two1">
+					2016-01-13
+				</div>
+				<div class="two2">
+					古风长干行之倾城霓裳
+				</div>
+				<div class="two3">
+					古风长干行之倾城霓裳，小女临初世，呓语叹临房。啼哭声清澈，嘻嘻语秀璜。不为尘世物，却落俗尘乡。
+				</div>
+				<div class="two4">查看详情>></div>
+			</li>
+			<li class="three"></li>
+		</ul>
+		<ul class="box2">
+			<li class="one">
+				<div class="one1">
+					2016-01-15
+				</div>
+				<div class="one2">
+					五律-醉卧古风轩
+				</div>
+				<div class="one3">
+					顾影随明月，清心伴婵娟。一生竹露饮，醉卧古风轩。
+				</div>
+				<div class="one4">查看详情>></div>
+			</li>
+			<li class="two"></li>
+			<li class="three">
+				<div class="three1">
+					2016-01-13
+				</div>
+				<div class="three2">
+					水调歌头-古风
+				</div>
+				<div class="three3">
+					剑舞太白雪，醉卧灞柳兰。胭脂红，美人血，恨别年。回眸几多憔悴，江山染朱颜。
+				</div>
+				<div class="three4">查看详情>></div>
+			</li>
+		</ul>
+		<div class="box3">
+			<div class="one">古风朝报</div>
+			<ul>
+				<li><a href="#">《芈月传》阿鲁阿卓《西风》领衔影视古风·············2016-01-17</a></li>
+				<li><a href="#">高翊菲曾春年对唱《妃子泪》 打造经典古风············2016-01-15</a></li>
+				<li><a href="#">徐娇着粉裙晒照 走古风画面静好唯美·················2016-01-09</a></li>
+				<li><a href="#">网友制作刘亦菲古风美照 半露香肩美得无法···········2016-01-08</a></li>
+			</ul>
+		</div>
+		<div class="box4">
+			<div class="one">古风书院</div>
+			<ul>
+				<li><a href="#">文章发布规则··········2016-01-08</a></li>
+				<li><a href="#">宋词·················2016-01-08</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="mainseven">
+		<div class="one"></div>
+		<div class="two">扫描关注官方微信公众平台</div>
+		<div class="three">地址：中国 北京市丰台区正阳北里</div>
+		<div class="four">电话：15712887307 邮箱：909330188@qq.com</div>
+		<div class="five">微信公众号：gufengwenhua</div>
+		<div class="sex">（工业和信息化部网站备案系统：京icp备15065839号-1）</div>
+		<div class="seven">Copyright c 2015 Comsenz Inc. Powered by Discuz! X3.2</div>
+	</div>
+	<div id="maineight">
+		<ul>
+			<li>手机版</li>
+			<li>公告</li>
+			<li>古风文化</li>
+			<li>古风原创</li>
+		</ul>
+	</div>
+ </body>
+</html>
